@@ -1,5 +1,22 @@
 # Changelog
 
+## [6.5.0](https://github.com/joluc/tado-exporter/compare/6.4.0...6.5.0) (2025-09-09)
+
+
+### Features
+
+* introduce a rate limit of one attempt per minute on authentication ([c530643](https://github.com/joluc/tado-exporter/commit/c530643fbe30de5f9cf658f5eb2a8d14bab1e535))
+* upgrade to spring boot 3.3, rework value-filtering registry ([1c602b3](https://github.com/joluc/tado-exporter/commit/1c602b3d07c3feee765981c0944219ccfdfeaf5e))
+
+
+### Bug Fixes
+
+* add explicit JsonCreator to Zones class, required by current Jackson ([b2bb2c4](https://github.com/joluc/tado-exporter/commit/b2bb2c4f79779502003db9d6684783f8ae397726))
+* add explicit JsonCreator to Zones class, required by current Jackson ([58f9a6f](https://github.com/joluc/tado-exporter/commit/58f9a6fa2e16c4187238f9a2c1a31eb5f05233ad))
+* fuck you, release-please-action! ([1087107](https://github.com/joluc/tado-exporter/commit/1087107b691a7dea4d7ddb9a813b4a5fd694d0a6))
+* trigger release build, updating dependencies ([1276cc7](https://github.com/joluc/tado-exporter/commit/1276cc7d102ce28b30bd132620652f77867b6ad1))
+* update to release-please-action 4 ([fb1d719](https://github.com/joluc/tado-exporter/commit/fb1d719fa8a1dc4d788e4e93c97b31354b4b9db1))
+
 ## [6.4.0](https://github.com/easimon/tado-exporter/compare/6.3.1...6.4.0) (2025-03-15)
 
 
